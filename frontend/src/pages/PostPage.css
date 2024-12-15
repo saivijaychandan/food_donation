@@ -1,0 +1,59 @@
+/* General styles for the post page */
+.post-page {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: #333;
+  }
+  
+  /* Header styles */
+  .post-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .post-header h2 {
+    font-size: 2rem;
+    color: #222;
+    margin: 0;
+    text-transform: capitalize;
+    border-bottom: 2px solid #eee;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+  }
+  
+  /* Post details section */
+  .post-details {
+    line-height: 1.8;
+    font-size: 1rem;
+  }
+  
+  .post-details p {
+    margin: 0.5rem 0;
+  }
+  
+  .post-label {
+    font-weight: bold;
+    color: #444;
+    margin-right: 0.5rem;
+  }
+  
+  /* Loading message */
+  .loading {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #666;
+  }
+  
+  /* Add hover effect on the details */
+  .post-details p:hover {
+    background: #f1f1f1;
+    border-radius: 5px;
+    padding: 0.5rem;
+    transition: background 0.3s ease-in-out;
+  }
+  
